@@ -120,6 +120,8 @@ h1{
   padding: 0;
 }
 
+/* SPLASH PAGE */
+
 #bg {
   margin:0;
   padding:0;
@@ -166,7 +168,7 @@ h1{
 
 @media (max-width: 767px) {
   .fullscreen-bg {
-    background: url('../img/bg.png') center center / cover no-repeat;
+    background: url('../img/twt.gif') center center / cover no-repeat;
   }
 
   .fullscreen-bg__video {
@@ -184,7 +186,7 @@ h1{
   justify-content: center;
   border-radius: 1em;
   padding: 3px;
-  background: url("../img/logo-web.png") no-repeat;
+  background: url("../img/twt.gif") no-repeat;
   background-position: center;
   background-size: 20vw;
 }
@@ -202,8 +204,15 @@ a {
   color: #CFDBD5;
 }
 
+/* PAGES */
 
+.bodyPage {
+  background: red url('../img/bg.png');
+}
 
+.fullscreen-bg__Page {
+  opacity: 0;
+}
 
 
 
