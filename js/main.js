@@ -1,7 +1,4 @@
-pageCheck = window.location.href;
-
-if (pageCheck.indexOf("episodes")) {
-  function epsPage() {
-    
-  };
-};
+function expandEp(ep) {
+  var element = document.getElementById(ep)
+  element.classList.toggle("epActive");
+}
